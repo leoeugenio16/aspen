@@ -2,7 +2,7 @@ import fachada from '../imagenes/INICIO/FACHADA.jpeg'
 
 const Inicio=()=>{
     return(
-        <div>
+        <div >
             <img src={fachada}/>
         </div>
     )

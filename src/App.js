@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch,Router, Route, BrowserRouter } from 'react-router-dom';
+import {Route, BrowserRouter, Routes } from 'react-router-dom';
 import Cafe from './carta/cafe';
 import Carta from './carta/carta';
 import NavBar from './navbar/navbar.js';
@@ -16,16 +16,16 @@ const EnrutadorDeApp = () => {
   return (
     <BrowserRouter>
       <NavBar/>
-      <Switch>
-        <Route path="/" component={Inicio} exact={true}/>
-        <Route path="/carta" component={Carta} />
-        <Route path="/cafeteria" component={Cafe}/>
-        <Route path="/promociones" component={Promociones}/>
-        <Route path="/nosotros" component={Nosotros}/>
-        <Route path="/bebidas" component={Bebidas}/>
-        <Route path="/dulce" component={Dulce} />
-        <Route path="/desayunoMerienda" component={DesayunoMerienda}/>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Inicio/>} exact={true}/>
+        <Route path="/carta" element={<Carta/>} />
+        <Route path="/cafeteria" element={<Cafe/>}/>
+        <Route path="/promociones" element={<Promociones/>}/>
+        <Route path="/nosotros" element={<Nosotros/>}/>
+        <Route path="/bebidas" element={<Bebidas/>}/>
+        <Route path="/dulce" element={<Dulce/>} />
+        <Route path="/desayunoMerienda" element={<DesayunoMerienda/>}/>
+      </Routes>
     </BrowserRouter>
 
 
