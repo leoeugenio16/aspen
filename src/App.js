@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, BrowserRouter, Routes } from 'react-router-dom';
+import {Route, Routes, HashRouter } from 'react-router-dom';
 import Cafe from './carta/cafe';
 import Carta from './carta/carta';
 import NavBar from './navbar/navbar.js';
@@ -14,7 +14,7 @@ import DesayunoMerienda from './carta/desayunomerienda';
 
 const EnrutadorDeApp = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <NavBar/>
       <Routes>
         <Route path="/" element={<Inicio/>} exact={true}/>
@@ -26,7 +26,7 @@ const EnrutadorDeApp = () => {
         <Route path="/dulce" element={<Dulce/>} />
         <Route path="/desayunoMerienda" element={<DesayunoMerienda/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
 
   );
