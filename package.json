@@ -1,6 +1,5 @@
 {
   "name": "aspen",
-  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "http://leoeugenio16.github.io/aspen",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
