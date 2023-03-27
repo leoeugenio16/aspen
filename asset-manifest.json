@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aspen/static/css/main.afe500ca.css",
-    "main.js": "/aspen/static/js/main.016a38d0.js",
+    "main.css": "/aspen/static/css/main.8e30cd86.css",
+    "main.js": "/aspen/static/js/main.df602454.js",
     "static/media/cafeteria1.jpg": "/aspen/static/media/cafeteria1.e73e89da0f1340b07295.jpg",
     "static/media/TE.jpg": "/aspen/static/media/TE.c7dcefb956bc4256beee.jpg",
     "static/media/fondo-carta.jpg": "/aspen/static/media/fondo-carta.eed116244dd001ea1308.jpg",
@@ -39,11 +39,11 @@
     "static/media/CAFETERIA.png": "/aspen/static/media/CAFETERIA.9a5022b4ed466f024fc4.png",
     "static/media/LOGOBEBIDAS.png": "/aspen/static/media/LOGOBEBIDAS.b2d91381eb35985eee43.png",
     "index.html": "/aspen/index.html",
-    "main.afe500ca.css.map": "/aspen/static/css/main.afe500ca.css.map",
-    "main.016a38d0.js.map": "/aspen/static/js/main.016a38d0.js.map"
+    "main.8e30cd86.css.map": "/aspen/static/css/main.8e30cd86.css.map",
+    "main.df602454.js.map": "/aspen/static/js/main.df602454.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe500ca.css",
-    "static/js/main.016a38d0.js"
+    "static/css/main.8e30cd86.css",
+    "static/js/main.df602454.js"
   ]
 }
