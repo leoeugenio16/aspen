@@ -50,8 +50,8 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" href='/desayunoMerienda'>
-                            <Link>
+                        <Button variant="primary" >
+                            <Link to='/desayunoMerienda'>
                                 VER
                             </Link>
                         </Button>
@@ -67,7 +67,11 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" href='/dulce'>VER</Button>
+                        <Button variant="primary" >
+                        <Link to="/dulce">
+                                VER
+                        </Link>
+                        </Button>
                     </Card.Body>
                 </Card>
             </Row>
