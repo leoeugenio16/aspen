@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d91b3f5d.css",
-    "main.js": "./static/js/main.c887215b.js",
+    "main.js": "./static/js/main.0e6e24a3.js",
     "static/media/cafeteria1.jpg": "./static/media/cafeteria1.e73e89da0f1340b07295.jpg",
     "static/media/TE.jpg": "./static/media/TE.c7dcefb956bc4256beee.jpg",
     "static/media/fondo-carta.jpg": "./static/media/fondo-carta.eed116244dd001ea1308.jpg",
@@ -40,10 +40,10 @@
     "static/media/LOGOBEBIDAS.png": "./static/media/LOGOBEBIDAS.b2d91381eb35985eee43.png",
     "index.html": "./index.html",
     "main.d91b3f5d.css.map": "./static/css/main.d91b3f5d.css.map",
-    "main.c887215b.js.map": "./static/js/main.c887215b.js.map"
+    "main.0e6e24a3.js.map": "./static/js/main.0e6e24a3.js.map"
   },
   "entrypoints": [
     "static/css/main.d91b3f5d.css",
-    "static/js/main.c887215b.js"
+    "static/js/main.0e6e24a3.js"
   ]
 }
