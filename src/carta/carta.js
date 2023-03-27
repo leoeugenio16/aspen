@@ -6,11 +6,12 @@ import merienda from '../imagenes/CARTA/merienda.jpeg'
 import dulces from '../imagenes/CARTA/dulces.jpeg'
 import { CardGroup } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 
 const Carta = () => {
     return (
         <CardGroup >
-            <Row  className="g-4">
+            <Row className="g-4">
                 <Card border='Dark' bsPrefix="card" style={{ width: '100%' }}>
                     <Card.Img variant="top" src={cafe} />
                     <Card.Body>
@@ -27,7 +28,7 @@ const Carta = () => {
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
-                    <Card.Img variant="top"  src={bebida} />
+                    <Card.Img variant="top" src={bebida} />
                     <Card.Body>
                         <Card.Title>BEBIDAS</Card.Title>
                         <Card.Text>
@@ -49,7 +50,11 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" href='/desayunoMerienda'>VER</Button>
+                        <Button variant="primary" href='/desayunoMerienda'>
+                            <Link>
+                                VER
+                            </Link>
+                        </Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
