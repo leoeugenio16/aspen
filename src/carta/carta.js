@@ -21,7 +21,9 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" href='/cafeteria'>VER</Button>
+                        <Button variant="primary" href='/cafeteria'>
+                            <link to='/cafeteria'>VER</link>
+                        </Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
