@@ -15,17 +15,17 @@ import DesayunoMerienda from './carta/desayunomerienda';
 const EnrutadorDeApp = () => {
   return (
     <BrowserRouter>
-    <NavBar />
-    <Routes>
-        <Route path="/aspen/" element={<Inicio />} exact={true} />
-        <Route path="/aspen/carta" element={<Carta />} />
-        <Route path="/aspen/cafeteria" element={<Cafe />} />
-        <Route path="/aspen/promociones" element={<Promociones />} />
-        <Route path="/aspen/nosotros" element={<Nosotros />} />
-        <Route path="/aspen/bebidas" element={<Bebidas />} />
-        <Route path="/aspen/dulce" element={<Dulce />} />
-        <Route path="/aspen/desayunoMerienda" element={<DesayunoMerienda />} />
-    </Routes>
+        <NavBar />
+      <Routes>
+        <Route path="/" element={<Inicio />} exact={true} />
+        <Route path="/carta" element={<Carta />} />
+        <Route path="/cafeteria" element={<Cafe />} />
+        <Route path="/promociones" element={<Promociones />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/bebidas" element={<Bebidas />} />
+        <Route path="/dulce" element={<Dulce />} />
+        <Route path="/desayunoMerienda" element={<DesayunoMerienda />} />
+      </Routes>
     </BrowserRouter>
   );
 };
