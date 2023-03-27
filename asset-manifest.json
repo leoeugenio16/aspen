@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.d91b3f5d.css",
+    "main.css": "./static/css/main.0916073a.css",
     "main.js": "./static/js/main.b43abca3.js",
     "static/media/cafeteria1.jpg": "./static/media/cafeteria1.e73e89da0f1340b07295.jpg",
     "static/media/TE.jpg": "./static/media/TE.c7dcefb956bc4256beee.jpg",
@@ -39,11 +39,11 @@
     "static/media/CAFETERIA.png": "./static/media/CAFETERIA.9a5022b4ed466f024fc4.png",
     "static/media/LOGOBEBIDAS.png": "./static/media/LOGOBEBIDAS.b2d91381eb35985eee43.png",
     "index.html": "./index.html",
-    "main.d91b3f5d.css.map": "./static/css/main.d91b3f5d.css.map",
+    "main.0916073a.css.map": "./static/css/main.0916073a.css.map",
     "main.b43abca3.js.map": "./static/js/main.b43abca3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d91b3f5d.css",
+    "static/css/main.0916073a.css",
     "static/js/main.b43abca3.js"
   ]
 }
