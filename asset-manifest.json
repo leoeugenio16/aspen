@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aspen/static/css/main.f7110910.css",
-    "main.js": "/aspen/static/js/main.d995bc26.js",
+    "main.js": "/aspen/static/js/main.490620ba.js",
     "static/media/cafeteria1.jpg": "/aspen/static/media/cafeteria1.e73e89da0f1340b07295.jpg",
     "static/media/TE.jpg": "/aspen/static/media/TE.c7dcefb956bc4256beee.jpg",
     "static/media/fondo-carta.jpg": "/aspen/static/media/fondo-carta.eed116244dd001ea1308.jpg",
@@ -40,10 +40,10 @@
     "static/media/LOGOBEBIDAS.png": "/aspen/static/media/LOGOBEBIDAS.b2d91381eb35985eee43.png",
     "index.html": "/aspen/index.html",
     "main.f7110910.css.map": "/aspen/static/css/main.f7110910.css.map",
-    "main.d995bc26.js.map": "/aspen/static/js/main.d995bc26.js.map"
+    "main.490620ba.js.map": "/aspen/static/js/main.490620ba.js.map"
   },
   "entrypoints": [
     "static/css/main.f7110910.css",
-    "static/js/main.d995bc26.js"
+    "static/js/main.490620ba.js"
   ]
 }
