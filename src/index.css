@@ -53,6 +53,7 @@
     text-align: center;
     display: flex;
     direction: initial;
+    padding: 2%;
 }
 
 .card{
@@ -72,6 +73,7 @@
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 3vh;
+        padding: 1%;
     }
     .card-group{
         background-image: url("./imagenes/CAFE/fondo-carta.jpg");
@@ -79,6 +81,7 @@
         background-size: 100% 110%;
         display: flex;
         align-items: center;
+        padding: 2%;
     }
     
 }

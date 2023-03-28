@@ -9,6 +9,7 @@ import Nosotros from './nosotros/nosotros';
 import Bebidas from './carta/bebidas';
 import Dulce from './carta/dulce';
 import DesayunoMerienda from './carta/desayunomerienda';
+import errorSitio from './promociones/404/ErrorSitio';
 
 
 
@@ -17,7 +18,7 @@ const EnrutadorDeApp = () => {
     <BrowserRouter>
         <NavBar />
       <Routes>
-        <Route path="/" element={<Inicio />} exact={true} />
+        <Route path="/aspen" element={<Inicio />} exact={true} />
         <Route path="/carta" element={<Carta />} />
         <Route path="/cafeteria" element={<Cafe />} />
         <Route path="/promociones" element={<Promociones />} />
@@ -25,6 +26,7 @@ const EnrutadorDeApp = () => {
         <Route path="/bebidas" element={<Bebidas />} />
         <Route path="/dulce" element={<Dulce />} />
         <Route path="/desayunoMerienda" element={<DesayunoMerienda />} />
+        <Route path='*' element={<errorSitio />} />
       </Routes>
     </BrowserRouter>
   );

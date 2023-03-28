@@ -6,9 +6,11 @@ import merienda from '../imagenes/CARTA/merienda.jpeg'
 import dulces from '../imagenes/CARTA/dulces.jpeg'
 import { CardGroup } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Carta = () => {
+
+    const navegacion=useNavigate();
     return (
         <CardGroup >
             <Row className="g-4">
@@ -22,8 +24,8 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" href='/cafeteria'>
-                            <link to='/cafeteria'>VER</link>
+                        <Button variant="primary" onClick={()=>navegacion('/cafeteria')}>
+                            VER
                         </Button>
                     </Card.Body>
                 </Card>
@@ -37,7 +39,7 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" href='/bebidas'>VER</Button>
+                        <Button variant="primary" onClick={()=>navegacion('/bebidas')}>VER</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
@@ -50,10 +52,8 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" >
-                            <Link to='/desayunoMerienda'>
-                                VER
-                            </Link>
+                        <Button onClick={()=>navegacion('/desayunoMerienda')} variant="primary" >
+                            VER
                         </Button>
                     </Card.Body>
                 </Card>
@@ -67,10 +67,8 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" >
-                        <Link to="/dulce">
-                                VER
-                        </Link>
+                        <Button onClick={()=>navegacion('/dulce')}variant="primary" >
+                            VER
                         </Button>
                     </Card.Body>
                 </Card>
