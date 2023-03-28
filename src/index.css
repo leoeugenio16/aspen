@@ -36,6 +36,7 @@
         font-size: 150%;
         background-repeat: repeat;
     }
+    
 }
 .logoNuevo{
     display: block;
@@ -43,6 +44,18 @@
     width: 30%;
     right: auto;
     align-items: center;
+}
+/*ESTILOS DE INICIO*/
+.inicio{
+    display: flex;
+    justify-content: center;
+    background-image: url('imagenes/CAFE/fondo-carta.jpg');
+    padding: 5%;
+    padding-bottom: 70%;
+}
+.inicio-img{
+    width: 30%;
+    right: auto;
 }
 
 /*ESTILOS DE CARTA*/
