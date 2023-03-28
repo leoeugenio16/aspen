@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aspen/static/css/main.afe500ca.css",
-    "main.js": "/aspen/static/js/main.c775e05f.js",
+    "main.css": "/aspen/static/css/main.f7110910.css",
+    "main.js": "/aspen/static/js/main.d995bc26.js",
     "static/media/cafeteria1.jpg": "/aspen/static/media/cafeteria1.e73e89da0f1340b07295.jpg",
     "static/media/TE.jpg": "/aspen/static/media/TE.c7dcefb956bc4256beee.jpg",
     "static/media/fondo-carta.jpg": "/aspen/static/media/fondo-carta.eed116244dd001ea1308.jpg",
@@ -13,8 +13,8 @@
     "static/media/LAGRIMA-CHICO.jpg": "/aspen/static/media/LAGRIMA-CHICO.feeb854e17b12af3d0e5.jpg",
     "static/media/MOCACCINO.jpg": "/aspen/static/media/MOCACCINO.5c388a665beefcda9af9.jpg",
     "static/media/CORTADO-CHICO.jpg": "/aspen/static/media/CORTADO-CHICO.675aa0ea88072a878319.jpg",
+    "static/media/FACHADA.jpeg": "/aspen/static/media/FACHADA.7becc4426b8d5c235553.jpeg",
     "static/media/dulces.jpeg": "/aspen/static/media/dulces.db3dce360b5cee267923.jpeg",
-    "static/media/FACHADA.jpeg": "/aspen/static/media/FACHADA.c6727ec1a4fb0a100c61.jpeg",
     "static/media/COCACOLA350.jpg": "/aspen/static/media/COCACOLA350.2394c5ea8b2e84494041.jpg",
     "static/media/AGUAMINERALGAS500CC.jpg": "/aspen/static/media/AGUAMINERALGAS500CC.a09ce43faba65b27870e.jpg",
     "static/media/PROMO14-03-2023.jpeg": "/aspen/static/media/PROMO14-03-2023.5f11047f283df678f75a.jpeg",
@@ -39,11 +39,11 @@
     "static/media/CAFETERIA.png": "/aspen/static/media/CAFETERIA.9a5022b4ed466f024fc4.png",
     "static/media/LOGOBEBIDAS.png": "/aspen/static/media/LOGOBEBIDAS.b2d91381eb35985eee43.png",
     "index.html": "/aspen/index.html",
-    "main.afe500ca.css.map": "/aspen/static/css/main.afe500ca.css.map",
-    "main.c775e05f.js.map": "/aspen/static/js/main.c775e05f.js.map"
+    "main.f7110910.css.map": "/aspen/static/css/main.f7110910.css.map",
+    "main.d995bc26.js.map": "/aspen/static/js/main.d995bc26.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe500ca.css",
-    "static/js/main.c775e05f.js"
+    "static/css/main.f7110910.css",
+    "static/js/main.d995bc26.js"
   ]
 }
