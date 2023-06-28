@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
-import icono from '../imagenes/LOGO/LOGONAV.png'
+import icono from '../imagenes/LOGO/logooptica.png'
 
 
 function NavBar() {
@@ -10,7 +10,7 @@ function NavBar() {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand >
-          <NavLink to="/aspen">
+          <NavLink to="/vision">
             <img class="icono" src={icono} />
           </NavLink>
         </Navbar.Brand>
@@ -18,13 +18,13 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link>
-              <NavLink class="link-negro" to="/carta"><b>CARTA</b></NavLink>
+              <NavLink class="link-negro" to="/lentesSol"><b>LENTES SOL</b></NavLink>
             </Nav.Link>
             <Nav.Link>
-              <NavLink to="/promociones"><b>PROMOCIONES</b></NavLink>
+              <NavLink to="/Graduacion"><b>LENTES AUMENTO</b></NavLink>
             </Nav.Link>
             <Nav.Link >
-              <NavLink to="/nosotros"><b>NOSOTROS</b></NavLink>
+              <NavLink to="/nosotros"><b>ACCESORIOS</b></NavLink>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

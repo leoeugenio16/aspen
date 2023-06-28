@@ -1,9 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import cafe from '../imagenes/CARTA/cafe.jpeg';
-import bebida from '../imagenes/CARTA/bebidas.jpg';
-import merienda from '../imagenes/CARTA/merienda.jpeg'
-import dulces from '../imagenes/CARTA/dulces.jpeg'
+import rayband from '../imagenes/TIPO_DE_LENTES/rayband.png';
+import ozono from '../imagenes/TIPO_DE_LENTES/ozono.png';
+import ruta66 from '../imagenes/TIPO_DE_LENTES/ruta66.png'
+import mohs from '../imagenes/TIPO_DE_LENTES/mohs.jpg'
 import { CardGroup } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import { useNavigate } from 'react-router-dom';
@@ -15,55 +15,55 @@ const Carta = () => {
         <CardGroup >
             <Row className="g-4">
                 <Card border='Dark' bsPrefix="card" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={cafe} />
+                    <Card.Img variant="top" src={rayband} />
                     <Card.Body>
-                        <Card.Title>CAFETERIA</Card.Title>
+                        <Card.Title>RAY-BAND</Card.Title>
                         <Card.Text>
                             <b>
-                                EN ESTE SECTOR ENCONTRARAS UNA GRAN VARIEDAD DE CAFE EN LA VERSION CHICO Y GRANDE
+                                EN ESTE SECTOR ENCONTRARAS UNA GRAN VARIEDAD DE LENTES RAY-BAND
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" onClick={()=>navegacion('/cafeteria')}>
+                        <Button variant="primary" onClick={()=>navegacion('/rayband')}>
                             VER
                         </Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={bebida} />
+                    <Card.Img variant="top" src={ozono} />
                     <Card.Body>
-                        <Card.Title>BEBIDAS</Card.Title>
+                        <Card.Title>OZONO</Card.Title>
                         <Card.Text>
                             <b>
-                                EN ESTE SECTOR ENCONTRARAS UNA AMPLIA VARIEDAD DE BEBIDAS CON Y SIN ALCOHOL
+                                EN ESTE SECTOR ENCONTRARAS UNA AMPLIA VARIEDAD DE LENTES OZONO
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" onClick={()=>navegacion('/bebidas')}>VER</Button>
+                        <Button variant="primary" onClick={()=>navegacion('/ozono')}>VER</Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={merienda} />
+                    <Card.Img variant="top" src={ruta66} />
                     <Card.Body>
-                        <Card.Title>DESAYUNOS Y MERIENDA</Card.Title>
+                        <Card.Title>RUTA 66</Card.Title>
                         <Card.Text >
                             <b>
-                                EN ESTE SECTOR ENCONTRARAS VARIEDAD DE SANDGUCHES Y MEDIALUNAS PARA ACOMPAÑAR A TU CAFE
+                                EN ESTE SECTOR ENCONTRARAS VARIEDAD DE LENTES RUTA 66
                             </b>
 
                         </Card.Text>
-                        <Button onClick={()=>navegacion('/desayunoMerienda')} variant="primary" >
+                        <Button onClick={()=>navegacion('/ruta66')} variant="primary" >
                             VER
                         </Button>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={dulces} />
+                    <Card.Img variant="top" src={mohs} />
                     <Card.Body>
-                        <Card.Title>DULCES</Card.Title>
+                        <Card.Title>MOHS</Card.Title>
                         <Card.Text>
                             <b>
-                                EN ESTE SECTOR ENCONTRAR UNA ENORME VARIEDAD DE TORTAS Y PÓSTRES PARA DELEITARTE
+                                EN ESTE SECTOR ENCONTRAR UNA ENORME VARIEDAD DE LENTES MOHS
                             </b>
 
                         </Card.Text>

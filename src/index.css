@@ -1,22 +1,30 @@
 /*ESTILOS DE NAVBAR*/
+.container{
+    height: 100%;
+}
 .navbar{
-    background-color: rgb(94, 46, 7);
-    
+    background-color: rgb(252, 251, 251);
+    padding-left: 2vh;
+    border-bottom: #000 solid 3px;
 }
 .nav-link{
     color: #fffffe !important;
+    justify-content: center;
+    white-space: nowrap;
 }
 .me-auto{
-    margin-left: 20%;
+    margin-left: 50%;
 }
 .nav-link{
-    margin-left: 10%;
+    margin-left: 2%;
 }
 /*ESTILOS DE INICIO*/
 .icono{
-    width: 20vh;
+    width: 40%;
     right: auto;
 }
+
+
 /*ESTILOS NOSOTROS*/
 .div-nosotros{
     background-image: url('./imagenes/NOSOTROS/ADENTRO.jpeg');
@@ -49,19 +57,19 @@
 .inicio{
     display: flex;
     justify-content: center;
-    background-image: url('imagenes/CAFE/fondo-carta.jpg');
+    background-image: url('imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg');
     padding: 5%;
     padding-bottom: 70%;
 }
 .inicio-img{
-    width: 30%;
+    width: 20%;
     right: auto;
 }
 
 /*ESTILOS DE CARTA*/
 @media screen and (max-device-width: 700px){
 .card-group{
-    background-image: url('./imagenes/CAFE/fondo-carta.jpg');
+    background-image: url('./imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg');
     align-items: center;
     text-align: center;
     display: flex;
@@ -72,7 +80,9 @@
 .card{
     margin: 10vh;
     text-align: center;
-    align-items: center;        
+    align-items: center; 
+    background-color: transparent; 
+    border: #000 solid 2px !important;        
 }
 }
 
@@ -87,9 +97,11 @@
         margin-right: 10%;
         margin-top: 3vh;
         padding: 1%;
+        border: #000 solid 2px !important;         
+        
     }
     .card-group{
-        background-image: url("./imagenes/CAFE/fondo-carta.jpg");
+        background-image: url("./imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg");
         background-repeat: no-repeat;
         background-size: 100% 110%;
         display: flex;
@@ -101,7 +113,7 @@
 
 /*ESTILOS CAFE*/
 .div-cafe{
-    background-image: url('./imagenes/CAFE/cafeteria1.jpg');
+    background-image: url('./imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg');
     right: 20%;
     width: 100%;
     display: flex;
@@ -118,19 +130,28 @@
     margin-top: 3%;
 }
 .cafeChicoYgrande{
-    background-image: url('./imagenes/CAFE/fondo-carta.jpg');
+    background-image: url('./imagenes/TIPO_DE_LENTES/FONDOPLAYA.png');
+    background-size: cover;
     padding: 3%;
+}
+.lentesAumentos{
+    
+    display: flex;
+    background-image: url('imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg');
+    padding: 5%;
+    padding-bottom: 70%;
 }
 @media only screen and (min-width:600px) {
     .cafeChicoYgrande{
         display: flex;
-        background-image: url('./imagenes/CAFE/fondo-carta.jpg');
+        background-image: url('./imagenes/TIPO_DE_LENTES/FONDOPLAYA.png');
+        background-repeat: no-repeat;
         justify-content: center;
     }
     .lista-cafe{
         display: flex;
         width: 100%;
-        background-image: url('./imagenes/CAFE/cafeteria1.jpg');
+        background-image: url('./imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg');
     }
     
 }

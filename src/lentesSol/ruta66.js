@@ -1,9 +1,10 @@
-import Cafeteria from "../imagenes/CAFE/CAFETERIA.png";
+
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 import cafeChico from "../imagenes/CAFE/CAFE-CHICO.jpg";
+import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import cafeGrande from "../imagenes/CAFE/CAFE-GRANDE.jpg";
@@ -15,12 +16,13 @@ import Mocaccino from "../imagenes/CAFE/MOCACCINO.jpg";
 import Capuccino from "../imagenes/CAFE/CAPUCCINO.jpeg";
 import Submarino from "../imagenes/CAFE/SUBMARINO.jpg";
 import Te from "../imagenes/CAFE/TE.jpg";
+import dulce from '../imagenes/DULCE/DULCE.png'
 
-const Cafe = () => {
+const Dulce = () => {
   return (
     <div>
       <div class="div-cafe">
-        <img class="img-cafe" src={Cafeteria} />
+        <img class="img-cafe" src={dulce} />
       </div>
       <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
         <Row bsPrefix="lista-cafe">
@@ -157,4 +159,4 @@ const Cafe = () => {
   );
 };
 
-export default Cafe;
+export default Dulce;

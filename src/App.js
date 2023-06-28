@@ -1,14 +1,14 @@
 import React from 'react';
 import { Route, BrowserRouter, Routes, Router } from 'react-router-dom';
-import Cafe from './carta/cafe';
-import Carta from './carta/carta';
+import LentesSol from './lentesSol/variedad';
+import Rayband from './lentesSol/rayband';
 import NavBar from './navbar/navbar.js';
-import Promociones from './promociones/promociones';
-import Inicio from './inicio/inicio.js'
-import Nosotros from './nosotros/nosotros';
-import Bebidas from './carta/bebidas';
-import Dulce from './carta/dulce';
-import DesayunoMerienda from './carta/desayunomerienda';
+import Graduacion from './lentesAumento/graduacion';
+import Inicio from './inicio/inicio'
+import Nosotros from './accesorios/accesorios';
+import Ozono from './lentesSol/ozono';
+import Mohs from './lentesSol/mohs';
+import ruta66 from './lentesSol/ruta66';
 import errorSitio from './promociones/404/ErrorSitio';
 
 
@@ -18,15 +18,15 @@ const EnrutadorDeApp = () => {
     <BrowserRouter>
         <NavBar />
       <Routes>
-        <Route path="/aspen" element={<Inicio />} exact={true} />
-        <Route path="/carta" element={<Carta />} />
-        <Route path="/cafeteria" element={<Cafe />} />
-        <Route path="/promociones" element={<Promociones />} />
-        <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/bebidas" element={<Bebidas />} />
-        <Route path="/dulce" element={<Dulce />} />
-        <Route path="/desayunoMerienda" element={<DesayunoMerienda />} />
-        <Route path='*' element={<errorSitio />} />
+        <Route path="/vision" element={<Inicio />} exact={true} />
+        <Route path="/lentesSol" element={<LentesSol />} />
+        <Route path="/rayband" element={<Rayband />} />
+        <Route path="/graduacion" element={<Graduacion />} />
+        {/* <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/ozono" element={<Ozono />} />
+        <Route path="/mohs" element={<Mohs />} />
+        <Route path="/ruta66" element={<DesayunoMerienda />} />
+        <Route path='*' element={<errorSitio />} /> */}
       </Routes>
     </BrowserRouter>
   );
